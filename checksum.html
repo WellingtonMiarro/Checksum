@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<link href="estilo.css" rel="stylesheet">
+	<link rel="stylesheet" 
+	 href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+	 integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" 
+	 crossorigin="anonymous">
+	<script type="text/javascript" src="script.js"></script>
+
+	<title>Checksum</title>
+
+</head>
+<body>
+
+	<form name="Checksum" class="formulario">
+		<h1>Checksum</h1>
+
+		<input
+		type="number" 
+		name="origem"
+		id="origem"
+		required
+		placeholder="Origem"
+		>
+		<input
+		type="number" 
+		name="destino"
+		id="destino"
+		required
+		placeholder="Destino"
+		>
+		<br>
+		<input
+		class="palavra"
+		type="text" 
+		name="palavra"
+		id="palavra"
+		required
+		placeholder="Dado"
+		>
+		<br>
+
+		<button type="reset" >Limpar Campo</button>
+		<button type="button" onclick="principal()">Gerar Checksum</button>
+
+	</form>
+
+	<div class="caixa">
+		<h1>Mensagem</h1>
+		<p id="msg"></p>
+	</div>
+				
+				
+</body>
+</html>
+	
